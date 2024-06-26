@@ -1,6 +1,7 @@
 from django.apps import AppConfig
 
 
-class PyboConfig(AppConfig):
+class TodosConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'pybo'
+    name = 'todos'
+
