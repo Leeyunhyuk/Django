@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'logs.apps.LogsConfig',
     'rest_framework',
     'todos.apps.TodosConfig',
     'django.contrib.admin',
