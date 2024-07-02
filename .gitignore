@@ -1,1 +1,4 @@
+todos/__pycache__/
+logs/__pycache__/
+config/__pycache__/
 django/

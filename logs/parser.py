@@ -1,17 +1,3 @@
-# import os
-# from datetime import datetime
-# from .models import LogEntry
-
-# LOG_FILE_PATH = '/path/to/logfile.log'
-
-# def parse_log_file():
-#     with open(LOG_FILE_PATH, 'r') as file:
-#         for line in file:
-#             parts = line.split(' ')
-#             timestamp = datetime.strptime(parts[0], '%Y-%m-%d %H:%M:%S')
-#             log_level = parts[1]
-#             message = ' '.join(parts[2:])
-#             LogEntry.objects.create(timestamp=timestamp, log_level=log_level, message=message)
 import os
 from datetime import datetime
 from .models import LogEntry
